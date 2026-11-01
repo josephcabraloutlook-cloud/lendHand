@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Register your interest | LendHand</title>
+  <meta name="description" content="Register your interest in delivery driver opportunities with LendHand. It takes about two minutes.">
+  <meta name="theme-color" content="#FFFFFF">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="/assets/icon-512.png" type="image/png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="page-apply">
+  <a class="skip-link" href="#app">Skip to the form</a>
+  <div class="apply-shell">
+    <header class="apply-header">
+      <div class="apply-bar">
+        <a class="logo" href="/" aria-label="LendHand home">
+          <img src="/assets/lendhand-green.png" width="1115" height="142" alt="LendHand">
+        </a>
+        <a class="exit-link" href="/" id="exit-link">Exit</a>
+      </div>
+      <div class="progress" id="progress" hidden>
+        <div class="progress-meta"><span id="progress-label"></span></div>
+        <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Form progress" id="progress-track">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+      </div>
+    </header>
+
+    <main class="apply-main" id="app" tabindex="-1">
+      <p class="loading" id="loading">Loading the form&hellip;</p>
+      <noscript><p class="notice notice-warn">This form needs JavaScript to work. Please turn it on in your browser settings and reload the page.</p></noscript>
+    </main>
+  </div>
+  <script type="module" src="/js/apply.js"></script>
+</body>
+</html>

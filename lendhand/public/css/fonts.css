@@ -1,0 +1,20 @@
+/*
+  Brand fonts: Manrope (headings) and Inter (body).
+
+  To use them, download the WOFF2 files (for example from fontsource.org), copy them into /public/fonts/,
+  and add rules like the ones below. Self-hosting keeps visitors' IP addresses off third-party servers.
+  Until then the site falls back to the visitor's system font, which is fast and clean on phones.
+
+  @font-face {
+    font-family: "Manrope";
+    src: url("/fonts/manrope-latin-wght-normal.woff2") format("woff2");
+    font-weight: 200 800;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Inter";
+    src: url("/fonts/inter-latin-wght-normal.woff2") format("woff2");
+    font-weight: 100 900;
+    font-display: swap;
+  }
+*/
